@@ -1,0 +1,226 @@
+/*----------------------------------------------------------------------------------------------
+Definición diseño del encabezaso
+------------------------------------------------------------------------------------------------*/
+.div_base_encab{
+	position: relative;
+	width: 1200px;
+	height: 200px;
+	background-color: wait;
+	top: 10px;
+	z-index: 1;
+}
+
+.div_encabezado{
+	width: 1200px;
+	height: 150px;
+	background-color: #06B8FF;
+	position: absolute;
+	top: 25px;
+	z-index: 2;
+}
+.div_line{
+	width: 1200px;
+	height: 15px;
+	background-color: #03087F;
+	position: absolute;
+	bottom:5px;
+	z-index: 3;
+}
+.foto{
+	width: 160px;
+	height: 200px;
+	background-color: gray;
+	position: absolute;
+	left: 90px;
+/*	top: 10px;*/
+	z-index: 3;
+}
+.foto img{
+	width: 98%;
+	height: 98%;
+	margin: 1%;
+}
+
+/*----------------------------------------------------------------------------------------------
+Definición texto del Encabezado
+------------------------------------------------------------------------------------------------*/
+.nombre{
+	position: relative;
+	right: 15px;
+	float: right;
+	color:white;
+	font-family: arial;
+	font-weight: bold;	
+}
+section  p{
+	position: absolute;
+	right: 15px;
+	float: right;
+	color:white;
+	font-family: arial;
+	font-size: 14px;
+}
+
+/*----------------------------------------------------------------------------------------------
+Definición del cuerpo del Documuento
+------------------------------------------------------------------------------------------------*/
+.cuerpo{
+	width: 1200px;
+	height: 400px;
+	position: relative;
+	top: 20px;
+	background-color: wait;
+}
+.cuerpo2{
+	width: 1200px;
+	height: 600px;
+	position: relative;
+	top: 20px;
+	background-color: wait;
+}
+.cuerpo3{
+	width: 1200px;
+	height: 800px;
+	position: relative;
+	top: 20px;
+	background-color: wait;
+}
+.secciones{
+	width: 800px;
+	height: 80px;
+	left: 200px;
+	float: left;
+	position: relative;
+	top: 5px;
+	background-color: #03087F;
+	border-radius: 25px;
+	z-index: 1;
+	margin: 10px;
+}
+.subseccion{
+	width: 780px;
+	height: 60px;
+	left: 10px;
+	top:10px;
+	background-color: #06B8FF;
+	float: left;
+	position: absolute;
+	border-radius: 25px;
+	z-index: 2;
+}
+
+.t_seccion{
+	color:white;
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;	
+	position: relative;
+	text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------------------
+Definición cada sección
+------------------------------------------------------------------------------------------------*/
+.secciones2{
+	width: 700px;
+	height: 60px;
+	left: 270px;
+	float: left;
+	position: relative;
+	background-color: #06B8FF;
+	border-radius: 25px;
+	z-index: 1;
+	margin: 10px;
+}
+.subseccion2{
+	width: 680px;
+	height: 40px;
+	left: 10px;
+	background-color: #06B8FF;
+	float: left;
+	position: absolute;
+	border-radius: 25px;
+	z-index: 2;
+}
+.t_seccion2{
+	color:white;
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;	
+	position: relative;
+}
+
+.parrafo{
+	width: 800px;
+	height: 350px;
+	left: 270px;
+	float: left;
+	position: relative;
+	top: 20px;
+	border-radius: 25px;
+	border: 2px solid #06B8FF;
+	background-color: wait;
+}
+.parrafo2{
+	width: 800px;
+	height: 550px;
+	left: 270px;
+	float: left;
+	position: relative;
+	top: 20px;
+	border-radius: 25px;
+	border: 2px solid #06B8FF;
+	background-color: wait;
+}
+.parrafo3{
+	width: 800px;
+	height: 750px;
+	left: 270px;
+	float: left;
+	position: relative;
+	top: 20px;
+	border-radius: 25px;
+	border: 2px solid #06B8FF;
+	background-color: wait;
+}
+.text{
+	position: absolute;
+	font-family: arial;
+	font-size: 18px;
+	color: #03087F;
+	text-align: justify;
+	margin: 30px;
+}
+
+section li{
+	font-family: arial;
+	font-size: 18px;
+	color: #03087F;
+	text-align: justify;
+	margin: 3px;
+}
+
+.Volver0{
+	width: 100px;
+	height: 50px;
+	left: 10px;
+	float: left;
+	position: absolute;
+	top: 20px;
+	border-radius: 25px;
+	border: 2px solid #06B8FF;
+	background-color: wait;
+}
+.Volver1{
+	position: relative;
+	left: 16px;
+	font-family: arial;
+	font-size: 16px;
+	color: #03087F;
+	text-align: center;
+	font-weight: bold;	
+	text-decoration: none;
+}
+
