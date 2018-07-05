@@ -1,0 +1,94 @@
+body{
+	color: red;
+	/*background-color: green;
+	float: right;*/
+}
+
+.colores{
+	color: blue !important;
+	background-color: yellow !important;
+}
+
+.alinear{
+	float: left !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active{
+	color: blue;
+	font-weight: bold;
+	/*font-size: 2CM;*/
+	font-family: verdana;
+	font-variant: small-caps;
+	cursor: hand;
+	text-decoration: none
+
+}
+
+.div1{
+width: 1000px;
+height: 800px;
+background-color: yellow;
+image-rendering: auto;
+float: left
+}
+
+.div1 img{
+width: 1000px;
+height: 800px;
+
+}
+
+.div2{
+
+width: 250px;
+height: 800px;
+background-color: blue;
+float: right;
+}
+
+
+.mitad1{
+	background-color: pink;
+	position: relative;
+	width: 47%;
+	height: 50%;
+}
+.mitad2{
+	background-color: blue;
+	position: relative;
+	width: 47%;
+	height: 50%;
+}
+
+@keyframes nombre{
+	from{background-color: yellow}
+	to{background-color: blue}
+}
+
+.animacion1{
+	width: 600px;
+	height: 600px;
+	animation-name: nombre;
+	animation-duration: 10s
+}
+
+@keyframes mover1{
+	from { bottom:  200px; left: 100px; }
+    to   { bottom:  200px; left: 700px; }
+}
+
+.animacion2{
+	bottom: 200px; left: 100px;
+	position: absolute;
+		width: 50px;
+	height: 50px;
+	animation-name: mover1;
+	animation-duration: 6s;
+}
+.animacion2 img{
+	width: 50px;
+	height: 50px;
+}
