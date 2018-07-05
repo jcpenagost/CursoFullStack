@@ -1,0 +1,50 @@
+<html ng-app="aplicacion">
+    <head>
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <script src="librerias/angular/angular.min.js"></script>
+        <script src="scripts/app.js"></script>
+    </head>
+
+    <body ng-controller="PrincipalCtrl">
+        <div class="tablas">
+            <div class="local">
+                    <table class="tabla1">
+                            <tr>
+                                <td></td> 
+                            </tr>
+                            <tr ng-if="$even" ng-repeat="bandera in flags">
+                                    <td><img src="http://www.countryflags.io/{{bandera}}/flat/64.png"></td>
+                            </tr>
+                    </table>
+                    <table class="tabla2">
+                            <tr>
+                                <th>EQUIPO LOCAL</th> 
+                            </tr>
+                            <tr ng-if="$even" ng-repeat="cosa in equipo">
+                                <td>{{cosa}}</td>
+                            </tr>
+                    </table>
+                    </div>
+            <div class="visita">
+                <table class="tabla1">
+                    <tr>
+                        <td></td> 
+                    </tr>
+                    <tr ng-if="$odd" ng-repeat="bandera in flags">
+                            <td><img src="http://www.countryflags.io/{{bandera}}/flat/64.png"></td>
+                    </tr>
+                </table>
+                <table class="tabla2">
+                    <tr>
+                        <th>EQUIPO VISITANTE</th> 
+                    </tr>
+                    <tr ng-if="$odd" ng-repeat="cosa in equipo">
+                        <td>{{cosa}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>

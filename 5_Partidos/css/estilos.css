@@ -1,0 +1,42 @@
+
+.tabla1{
+    width:50%;
+    height: 50%;
+    position: relative;
+    float: left;
+}
+.tabla2{
+    width:50%;
+    height: 50%;
+    position: relative;
+    float: left;
+}
+
+table, tr, th,td {
+    border: 1px solid black;
+    width: 50px;
+    height: 80px;
+}
+
+.tablas{
+    width: 800px;
+    height: 450px;
+    /*background-color: gray;*/
+    position: relative;
+}
+.local{
+    top: 10px;
+    width:  50%;
+    height: 250px;
+    float: left;
+    position: relative;
+    /*background-color: aqua;*/
+}
+.visita{
+    top: 10px;
+    width: 50%;
+    height: 250px;
+    float: left;
+    position: relative;
+    /*background-color: yellow;*/
+}
